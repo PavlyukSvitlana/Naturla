@@ -257,7 +257,7 @@ body {
   height: 100vh;
   width: 100%;
   transition: 1s;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/first-screen.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/first-screen.png');
   background-position: center;
   position: relative;
   background-repeat: no-repeat;
