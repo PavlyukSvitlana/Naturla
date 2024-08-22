@@ -810,3 +810,13 @@ tr, th {
 footer {
   width: 100vw;
 }
+
+.subscribers__list {
+  list-style: none;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.subscribers__list-item {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */

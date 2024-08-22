@@ -1,6 +1,9 @@
 @import url('/scss/_fonts.scss');
 @import url('/scss/_reset.scss');
 
+// Може бути змінено для коригування
+//in 
+
 @keyframes unBlur{
 	from{
 		filter: opacity(50%);
@@ -20,6 +23,7 @@
 }
 
 *{
+
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -871,4 +875,15 @@ tr, th {
 
 	footer{
 		width: 100vw;
+	}
+
+
+	.subscribers__list{
+		list-style: none;
+		gap: 2rem;
+		display: flex;
+		flex-direction: column;
+		&-item{
+			font-size: 1.5rem;
+		}
 	}
